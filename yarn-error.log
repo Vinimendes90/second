@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add db:migrate
+
+PATH: 
+  C:\Users\bianca\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;C:\Program Files\Java\jdk-11.0.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby27-x64\bin;C:\Users\bianca\AppData\Local\Microsoft\WindowsApps;C:\Users\bianca\AppData\Local\Yarn\bin;C:\Users\bianca\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\bianca\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  13.9.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: db:migrate: Invalid protocol: db:
+      at Request.module.exports.Request.init (C:\Program Files (x86)\Yarn\lib\cli.js:140833:31)
+      at new Request (C:\Program Files (x86)\Yarn\lib\cli.js:140506:8)
+      at request (C:\Program Files (x86)\Yarn\lib\cli.js:137412:10)
+      at RequestManager.execute (C:\Program Files (x86)\Yarn\lib\cli.js:66087:15)
+      at RequestManager.shiftQueue (C:\Program Files (x86)\Yarn\lib\cli.js:66125:10)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:65804:13
+      at new Promise (<anonymous>)
+      at new F (C:\Program Files (x86)\Yarn\lib\cli.js:5301:28)
+      at RequestManager.request (C:\Program Files (x86)\Yarn\lib\cli.js:65802:19)
+      at NpmRegistry.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:31704:42)
+
+npm manifest: 
+  {
+    "name": "fepnode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "mysql2": "^2.1.0",
+      "sequelize": "^6.3.0",
+      "sequelize-cli": "^6.2.0",
+      "sucrase": "^3.15.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
